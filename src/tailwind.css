@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.numbers{
+    @apply w-20 h-20 rounded-full border border-pink-500 flex shadow-md shadow-pink-600/70 items-center justify-center text-xl font-bold text-gray-600 hover:bg-gray-100
+}
